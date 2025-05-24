@@ -12,5 +12,31 @@ This tool helps you detect and move visually similar (duplicate) images from a f
 
 * Open terminal or command prompt
 * Navigate to the script directory
-* Run the script: python find_and_move_duplicates.py
+* Run the script: ```python find_and_move_duplicates.py```
 * Enter the full path to your image folder when prompted
+
+**Folder Structure (Before Run)**
+
+```
+your_image_folder/
+├── image1.jpg
+├── image2.jpg          
+├── image3.jpg
+├── image4.jpg
+├── image5.jpg
+```
+
+**Folder Structure (After Run)**
+
+```
+your_image_folder/
+├── image1.jpg
+├── image3.jpg          
+├── image4.jpg
+└── duplicates_found/
+    ├── image2.jpg      
+    └── image5.jpg
+```
+
+
+   
