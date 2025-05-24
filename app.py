@@ -29,7 +29,7 @@ def find_and_move_duplicates(folder_path, threshold=0.95):
     files = [f for f in os.listdir(folder_path) if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
     duplicate_files = set()
 
-    for i, file1 in tqdm(enumerate(image_files)):
+    for i, file1 in enumerate(image_files):
         path1 = os.path.join(folder_path, file1)
 
         for file2 in image_files[i+1:]:
