@@ -5,7 +5,7 @@ This tool helps you detect and move visually similar (duplicate) images from a f
 * The script loads all .jpg, .jpeg, .png images from a folder
 * Extracts features using pretrained ResNet50
 * Compares all pairs using cosine similarity
-* Moves duplicates to duplicates_found/
+* Moves duplicates to duplicates_found
 * Leaves non-duplicate images in the original folder
 
 **How to use it?**
